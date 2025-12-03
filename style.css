@@ -30,7 +30,9 @@ a.nav-links,.hero-sub-text{
 }
 
 .nav-bar{
-    background-color: hsl(57, 91%, 91%);
+    background-color: #EBFDD4;
+    
+
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -41,10 +43,12 @@ a.nav-links,.hero-sub-text{
 .navigation-links{
     list-style-type: none;
     display: flex;
-
+    gap: 32px;
+    
     margin: 0px;
     padding: 0px;
-    gap: 16px;
+
+
 }
 /* END OF NAVIGATION STYLING */
 
@@ -142,10 +146,10 @@ a.nav-links,.hero-sub-text{
     margin: 0px;
     margin-top: 8px;
 }
-/* END OF INFORMATION SECTION*/
+/* END OF INFORMATION SECTION STYLING*/
 
 
-/* START OF QUOTE SECTION */
+/* START OF QUOTE SECTION STYLING*/
 #quote{
     height: 400px;
     
@@ -174,10 +178,10 @@ a.nav-links,.hero-sub-text{
     margin: 0px;
     justify-self: flex-end;
 }
-/* END OF QUOTE SECTION */
+/* END OF QUOTE SECTION STYLING*/
 
 
-/* START OF CTA */
+/* START OF CTA  STYLING*/
 #cta{
     height: 250px;
     display: flex;
@@ -215,6 +219,23 @@ a.nav-links,.hero-sub-text{
     font-size: 1.25rem;
     margin: 0;
 }
-/* END OF FOOTER SECTION */
+/* END OF FOOTER SECTION STYLING*/
 
+/* START OF FOOTER SECTION STYLING*/
+#spml-footer{
+    height: 32px;
+    background-color: #3E6102;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    color: #BAC095;
+    margin:0px;
+}
 
