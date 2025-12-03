@@ -10,37 +10,31 @@ a{
 /* START OF NAVIGATION STYLING */
 a.logo,.hero-text{
     font-size: 1.5rem;
-    color: #f9faf8;
+    color: hsl(138,24%,19%);
+
 
 }
 
 a.nav-links,.hero-sub-text{
     font-size: 1.125rem;
-    color: #e5e7eb;
-
-    margin: 0;
-
+    color: hsl(137, 41%, 31%)
 }
 
-#hero,.nav-bar{
-    background-color: #1f2937;
+#hero{
+    background-color: hsl(57, 91%, 91%);
     height: 500px;
 
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .nav-bar{
+    background-color: hsl(57, 91%, 91%);
     height: 60px;
-
     display: flex;
     justify-content: space-around;
-
     align-items: center;
-
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -56,39 +50,97 @@ a.nav-links,.hero-sub-text{
 
 
 /* START OF HERO SECTION STYLING */
-.hero-card{
-    display:flex;
-    align-items:center;
-    gap:72px;
-
+.hero-message{
+    display: flex;
+    align-items: center;
+    gap: 72px;
 }
 
-.hero-message{
+.hero-card{
     width: 445px;
     height: 288px;
-    
-    display:flex;
-    flex-wrap:wrap;
-}
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin: 0px;
+    gap: 8px
+}
 
 .hero-text{
     font-size: 3rem;
     font-weight: 900;
-
-    margin:0px;
-    display:flex;
-    align-items: center;
+    margin: 0px;
 }
 
 .sign-up-btn{
     font-size: 1.2rem;
-    color: #f9faf8;
     font-weight: 700;
-    background-color: #3882f6;
-    width: 140px;
 
+    width: 150px;
+    height: 40px;
     border-radius: 15px;
-    border-color: #3882f6;
+
+    color: #f9faf8;
+    background-color: hsl(140, 52%, 55%);
+    border-color:hsl(138,24%,19%);
+
+
 }
 /* END OF HERO SECTION STYLING */
+
+
+/* START OF INFORMATION STYLING */
+#information{
+    height: 500px;
+    background-color: hsl(140, 52%, 55%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 48px;
+}
+
+.information-header{
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #253D2C;
+
+
+    margin: 0px;
+}
+
+.information-cards{
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 48px;
+}
+
+.card{
+    width: 212px;
+    margin: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+.info-image{
+    border-radius: 15px;
+    border: 6px solid hsl(57, 91%, 91%);
+
+}
+
+.information-text{
+    font-size: 1.125rem;
+    text-align: center;
+    color:#253D2C;
+    margin: 0px;
+    margin-top: 8px;
+}
