@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Onest',sans-serif;
     margin: 0;
 }
 
@@ -74,7 +74,7 @@ a.nav-links,.hero-sub-text{
     margin: 0px;
 }
 
-.sign-up-btn{
+.meow-btn{
     font-size: 1.2rem;
     font-weight: 700;
 
@@ -84,9 +84,7 @@ a.nav-links,.hero-sub-text{
 
     color: #f9faf8;
     background-color: hsl(140, 52%, 55%);
-    border-color:hsl(138,24%,19%);
-
-
+    border-color: hsl(138,24%,19%);
 }
 /* END OF HERO SECTION STYLING */
 
@@ -140,7 +138,83 @@ a.nav-links,.hero-sub-text{
 .information-text{
     font-size: 1.125rem;
     text-align: center;
-    color:#253D2C;
+    color: #253D2C;
     margin: 0px;
     margin-top: 8px;
 }
+/* END OF INFORMATION SECTION*/
+
+
+/* START OF QUOTE SECTION */
+#quote{
+    height: 400px;
+    
+    background-color: #D4DE95;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    width: 1072px;
+}
+
+.quote-text{
+    font-family: fantasy;
+    font-size: 3rem;
+    font-style: oblique;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.quote-reference{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    margin: 0px;
+    justify-self: flex-end;
+}
+/* END OF QUOTE SECTION */
+
+
+/* START OF CTA */
+#cta{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #84A903;
+}
+
+.cta-box{
+    background-color:#A98403 ;
+    width: 1072px;
+    height: 125px;    
+    
+    border-radius: 40px;
+    border: 6px solid #956303;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-message{
+    margin: 0;
+    margin-left: 8px;
+}
+
+.cta-header{
+    color: #F2F0EF;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.cta-sub-text{
+    color: #C9C8C7;
+    font-size: 1.25rem;
+    margin: 0;
+}
+/* END OF FOOTER SECTION */
+
+
